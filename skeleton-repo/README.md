@@ -11,4 +11,4 @@ This website is a practice of Flexbox in CSS
 
 1. Clone or download this repository.
 2. Open a terminal in the project folder.
-3. Run the main file:
+3. Run the main file: Home.html

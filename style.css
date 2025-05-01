@@ -1,0 +1,171 @@
+/*all page modification*/
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+   padding: 0px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 100%;
+    justify-content: center;
+    border: 2px solid black;
+}
+main p {
+  max-width:100vh ;  
+  border: 5px solid;
+  border-color:rgb(79, 4, 4);
+}
+h1,h2 {
+    flex: 100%;
+    background-color: chocolate;
+}
+/*nav modification*/
+body > nav{
+    position: fixed;
+    top: 0px;
+    min-width: 99%;
+    border: 1px solid black;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    background-color: olive;
+    justify-content: space-between;
+    min-height: 150px;
+    
+}
+#menu ul{
+    padding-inline-start: 0px;
+    justify-content: flex-start;
+    display: flex;
+    width: 320px;
+   gap: 17px;
+
+}
+nav a{
+    display: flex;
+   flex-direction: row;
+   
+}
+#last-item{
+    gap: 10px;
+}
+
+nav img {
+    display: flex;
+    margin-left: 8px;
+    max-height: 80px;
+    aspect-ratio: 1 / 1;
+}
+
+/*footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: olive;
+    text-align: center;
+    flex-wrap: wrap;
+    }
+
+footer ul{
+    display: flex;
+    gap: 10px;
+    padding-inline-start: 0px;
+}
+footer nav{
+    flex: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer img {
+        position: fixed;
+        max-height: 80px;
+        top:  500px;
+        right: 40px;
+     }
+
+/*colors of the options of the Menu*/
+#current-page {
+    color: darkgreen;}
+nav ul li a:link,
+nav ul li a:visited {
+   color: white;}
+
+   
+nav ul li a:hover {
+       color: maroon;
+    }
+
+nav ul li a:active {
+    color: orange;
+}
+/*especific config*/
+
+.contenedor{
+    display: flex;
+    margin-top: 165px;
+}
+    
+/*Home config*/
+#introduction{
+    position: sticky;
+    top: 148px;
+    z-index: 10;
+   padding: 15px;
+
+}
+#cuerpo{
+    position: sticky;
+    top: 148px;
+    z-index: 11;
+    padding: 15px;
+}
+#conclusion{
+    position: sticky;
+    top: 148px;
+    z-index: 12; 
+    padding: 15px;
+}
+/*Floated and clear funtions*/
+.contenedor-Images{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.floated-text{
+   box-sizing: border-box;
+    padding: 15px;
+    max-width: 1300px;
+}
+.floated-left{
+    display: flexbox;
+    border: 2px solid black;
+    float: left;
+    margin: 10px;
+    max-width: 20%;
+}
+.floated-right{
+    display: flexbox;
+    border: 2px solid black;
+    float: right;
+    margin: 10px;
+    max-width: 20%;
+}
+
+
+#im-clear{
+    width: 90%;
+    max-height: 400px;
+    object-fit: cover; 
+    clear: both;
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
